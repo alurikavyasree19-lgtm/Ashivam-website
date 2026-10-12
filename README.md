@@ -1,123 +1,72 @@
-# Ashivam-website
-Responsive portfolio for Ashivam Technologies, featuring services, industry solutions, projects, careers, and internships. Built with HTML, Tailwind CSS, and JavaScript. Contact links open prefilled email drafts. Photos load from Unsplash.
-Ashivam Technologies — Official Platform
-Enterprise Technology & Software Studio Platform. Built with a high-performance React 18 frontend and a hardened Express 5 / MongoDB REST API backend.
+## Ashivam Technologies Website
 
-CI Status Production Node Express MongoDB Tests
+## Project Overview
+Ashivam Technologies is a modern, responsive technology website designed to present software development services, digital solutions, technology capabilities, projects, career opportunities, and contact information in a professional format.
 
-🏛️ Architecture & Platform Overview
-The repository consists of two integrated tiers:
+## 1. Header and Navigation
+The header provides easy navigation to the major sections of the website, helping visitors access company information, services, solutions, projects, careers, and contact details.
 
-Frontend (/src): Single-Page Application (SPA) designed as a luxury dark-mode corporate tech studio interface with fluid responsive layouts (320px to 4K ultrawide), micro-interactions, and real-time contact validation.
-Backend (/backend): Production-grade REST API utilizing ES Modules, Mongoose document modeling, JWT authentication, granular RBAC, tiered rate limiting, and structured error handling.
-🛠️ Technology Stack
-Frontend
-Framework: React 18.3.1
-Bundler: Vite 5.4.21
-Styling: Modular CSS architecture with design tokens (globals.css, animations.css)
-Typography: Space Grotesk, Inter, JetBrains Mono
-API Client: Native fetch with AbortController timeout & standardized error mapping (src/api.js)
-Backend
-Framework: Express 5.2.1 (Node.js ES Modules)
-Database: MongoDB via Mongoose 9.10.3
-Security: Helmet, Multi-Origin CORS whitelist, express-rate-limit, input sanitization, ReDoS mitigation
-Authentication: HMAC SHA-256 JWT, bcryptjs password hashing (cost factor 12)
-File Uploads: Multer with strict MIME and extension validation (.pdf, .doc, .docx)
-Testing: Node.js native test runner (node:test), Supertest, node:assert/strict
-Observability: Correlation ID tracing (X-Request-Id) across all endpoints and logs
-🚀 Quick Start & Development
-1. Frontend Setup
-# Install dependencies
-npm install
+## 2. Hero Section
+The hero section creates the first impression of the website with a prominent headline, introductory message, and call-to-action buttons. It introduces the company's technology-focused vision and encourages visitors to explore further.
 
-# Run Vite development server (http://localhost:5173)
-npm run dev
+## 3. About Us
+This section introduces the company, its vision, and its approach to building modern digital products. It highlights innovation, quality, and user-focused software development.
 
-# Build for production
-npm run build
-2. Backend Setup
-# Navigate to backend
-cd backend
+## 4. Company Statistics
+This block presents key company figures and development highlights to give visitors an overview of the company's activities and progress.
 
-# Install dependencies (0 vulnerabilities verified)
-npm install
+## 5. Services and Engineering Capabilities
+This section presents software and technology services, including web development, mobile application development, custom software solutions, UI/UX design, backend development, and API integration.
 
-# Setup environment configuration
-cp .env.example .env
+## 6. Industry Solutions
+This section explains how digital technologies can support different industries through education platforms, business systems, automation, management tools, and customized applications.
 
-# Run automated tests
-npm test
+## 7. Technology Ecosystem
+This block showcases the technologies, frameworks, databases, and development tools used to build modern applications. It explains the role of frontend, backend, mobile, database, and design technologies.
 
-# Seed initial Superadmin account (requires running MongoDB instance)
-npm run seed
+## 8. Projects and Case Studies
+This section presents project concepts and portfolio examples, helping visitors understand different application ideas, their purposes, and the technologies associated with them.
 
-# Start development server with hot-reload (http://localhost:5000)
-npm run dev
-🧪 Testing Commands
-The backend includes a comprehensive, automated test suite:
+## 9. Why Choose Ashivam?
+This block highlights engineering quality, creative problem-solving, modern development practices, maintainable code, and scalable digital solutions.
 
-cd backend
+## 10. Careers and Opportunities
+This section provides information about potential career paths and internship opportunities for aspiring developers and technology professionals.
 
-# Run all 24 unit, integration, and security tests
-npm test
+## 11. Engineering Culture
+This block describes the values that support effective software development, including collaboration, continuous learning, communication, and innovation.
 
-# Run validation & query unit tests
-npm run test:unit
+## 12. Call to Action
+This section encourages visitors to discuss their business requirements and explore suitable software solutions.
 
-# Run API endpoints integration tests
-npm run test:integration
+## 13. Contact and Inquiry Form
+The contact section allows visitors to find contact information and submit inquiries about services, projects, or potential collaborations.
 
-# Run security headers & rate limiting tests
-npm run test:security
-Test Status: 24/24 Passing (0 failures, 1.8s execution)
+## 14. Footer
+The footer provides quick links, company information, contact details, and other useful navigation resources.
 
-📚 Engineering Documentation
-Comprehensive specifications and audit logs are available in docs/:
+## Technologies and Skills
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- UI/UX Design Principles
+- Git and GitHub
+- GitHub Pages
 
-Document	Description
-BACKEND-AUDIT.md	Initial architectural audit and vulnerability remediation plan
-API.md	Complete REST API specification, schemas, headers, status codes
-DATABASE-DESIGN.md	Database models, Mermaid ER diagrams, indexes, and compound keys
-API-SECURITY-AUDIT.md	OWASP API Security Top 10 analysis and threat mitigation matrix
-ENVIRONMENT.md	Environment variables matrix, security practices, and production guide
-BACKEND-TEST-REPORT.md	Automated test execution transcript and contract validation
-🌐 Deployments
-Live Production: https://ashivam-tec-h.vercel.app
-Continuous Integration: Automated GitHub Actions pipeline verifying frontend builds, backend tests, and vulnerability scans on every push to main.
-About
-ashivam-tec-h.vercel.app
-Resources
-Readme
-Activity
-Stars
-0 stars
-Watchers
-0 watching
-Forks
-0 forks
-Report repository
-Releases
-No releases published
-Deployments
-30
- (30)
-Production
-5 hours ago
-Packages
-No packages published
-Contributors
-1
- (1)
-@Ritikgupta-tech
-Ritikgupta-techRitik Gupta
-Languages
-JavaScript
-61.5%
-HTML
-27.5%
-CSS
-10.9%
-Dockerfile
-0.1%
-Footer
-© 2026 GitHub, Inc.
+## Key Features
+- Organized navigation
+- Section-based website layout
+- Responsive design approach
+- Service and project presentation
+- Career and contact sections
+- Professional user interface
+
+## Learning Outcomes
+Through this project, I practiced structuring website content, creating user-friendly layouts, presenting information through reusable sections, managing source code with GitHub, and publishing a website using GitHub Pages.
+
+## Live Website
+https://alurikavyasree19-lgtm.github.io/Ashivam-website/
+
+## Developer
+Created by Kavya Sree Aluri.
